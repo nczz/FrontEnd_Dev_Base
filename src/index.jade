@@ -1,0 +1,14 @@
+include ./include/mixins.jade
+doctype html
+html(lang='zh-tw')
+  head
+    title 範例文件
+    include ./include/files.jade
+  body
+    include ./include/header.jade
+    .container#content
+      h1 Example Title
+        +block_gen
+        +block_gen
+        +block_gen
+    include ./include/footer.jade

@@ -1,0 +1,24 @@
+{
+  "name": "frontendbase",
+  "version": "0.1.0",
+  "description": "Gulp automatic environment for Front-End Jade & Sass developer.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp"
+  },
+  "author": "Mxp",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-server-livereload": "^1.7.3",
+    "gulp-sourcemaps": "^1.6.0",
+    "imagemin-pngquant": "^4.2.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
