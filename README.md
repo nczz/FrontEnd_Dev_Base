@@ -5,8 +5,8 @@
 ### 使用方法
 
 ```bash
-git clone git@github.com:nczz/frontend_dev_base.git
-cd aromase
+git clone git@github.com:nczz/FrontEnd_Dev_Base.git
+cd FrontEnd_Dev_Base
 npm install
 npm test
 ```
