@@ -77,4 +77,7 @@ gulp.task('watch', function() {
 });
 
 // Gulp 自動化管控開發工具的進入點，啟動流程：清除編譯結果目錄 build -> 必須資源複製 -> 編譯 Jade -> 編譯 SASS -> 啟動觀看模式 -> 啟動本機開發預覽環境
-gulp.task('default', ['clean_all', 'copy_resource', 'jade', 'sass', 'watch', 'webserver']);
+gulp.task('default', ['clean_all', 'copy_resource', 'jade', 'sass', 'watch'],function(){
+	gulp.start('webserver');
+});
+
